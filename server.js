@@ -24,5 +24,3 @@ app.use('/api/blogs', blogRoutes);
 
 app.listen(5000, () => console.log('Server running on port 5000'));
 
-app.get('/', (req, res) => {
-  res.send('Welcome to KHR Blogs API');
